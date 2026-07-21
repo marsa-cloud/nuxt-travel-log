@@ -1,23 +1,17 @@
-# Nuxt Minimal Starter
+# Nuxt Travel Log
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+As part of CJ Syntax tutorial, I'm learning Frontend alongside building [Marsa](https://github.com/marsa-cloud/marsa), so this project is particularly for [Marsa#31](https://github.com/marsa-cloud/marsa/issues/31), I'm not going to use any AI in the "first iteration" of this apart from auto-completion.
+
+Goals are:
+1. Learn Frontend development.
+2. Eventually deploy this project entirely on Marsa.
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+pnpm install --frozen-lockfile
 ```
 
 ## Development Server
@@ -25,17 +19,7 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +27,11 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
