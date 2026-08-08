@@ -1,0 +1,9 @@
+shellEmulator: true
+trustPolicy: no-downgrade
+# Only enforce the trust check on packages published within the last 30 days,
+# where takeovers actually show up. Older packages (e.g. semver@6.3.1 via
+# @babel/core) predate npm provenance and trip the check as false positives.
+trustPolicyIgnoreAfter: 43200
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true

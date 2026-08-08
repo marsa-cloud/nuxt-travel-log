@@ -1,6 +1,6 @@
 # Nuxt Travel Log
 
-As part of CJ Syntax tutorial, I'm learning Frontend alongside building [Marsa](https://github.com/marsa-cloud/marsa), so this project is particularly for [Marsa#31](https://github.com/marsa-cloud/marsa/issues/31), I'm not going to use any AI in the "first iteration" of this apart from auto-completion.
+As part of [CJ's Nuxt tutorial](https://youtu.be/DK93dqmJJYg) from Syntax, I'm learning Frontend alongside building [Marsa](https://github.com/marsa-cloud/marsa), so this project is particularly for [Marsa#31](https://github.com/marsa-cloud/marsa/issues/31), I'm not going to use any AI in the "first iteration" of this apart from auto-completion.
 
 Goals are:
 
