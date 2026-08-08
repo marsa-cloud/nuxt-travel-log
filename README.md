@@ -3,6 +3,7 @@
 As part of CJ Syntax tutorial, I'm learning Frontend alongside building [Marsa](https://github.com/marsa-cloud/marsa), so this project is particularly for [Marsa#31](https://github.com/marsa-cloud/marsa/issues/31), I'm not going to use any AI in the "first iteration" of this apart from auto-completion.
 
 Goals are:
+
 1. Learn Frontend development.
 2. Eventually deploy this project entirely on Marsa.
 
