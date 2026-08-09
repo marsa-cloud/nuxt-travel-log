@@ -5,5 +5,6 @@ trustPolicy: no-downgrade
 # @babel/core) predate npm provenance and trip the check as false positives.
 trustPolicyIgnoreAfter: 43200
 allowBuilds:
+  core-js: true
   esbuild: true
   unrs-resolver: true

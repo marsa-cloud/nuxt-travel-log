@@ -1,6 +1,14 @@
 import antfu from "@antfu/eslint-config";
+import eslintPluginTailwindcss from "eslint-plugin-tailwindcss";
 // @ts-check
 import withNuxt from "./.nuxt/eslint.config.mjs";
+
+const tailwind = eslintPluginTailwindcss.configs.recommended;
+const tailwindSettings = {
+  tailwindcss: {
+    cssConfigPath: "./app/assets/css/main.css",
+  },
+};
 
 export default withNuxt(antfu({
   type: "app",
@@ -26,4 +34,15 @@ export default withNuxt(antfu({
       ignore: ["README.md"],
     }],
   },
+}, {
+  ...tailwind,
+  settings: tailwindSettings,
+}, {
+  // recommended only targets js/ts files, so wire the same rules up for SFCs
+  // (without its languageOptions, which would clobber vue-eslint-parser)
+  name: "tailwindcss/vue",
+  files: ["**/*.vue"],
+  plugins: tailwind.plugins,
+  settings: tailwindSettings,
+  rules: tailwind.rules,
 }));
