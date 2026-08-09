@@ -51,5 +51,8 @@
     "scss",
     "pcss",
     "postcss"
+  ],
+  "cSpell.words": [
+    "Nuxt"
   ]
 }
