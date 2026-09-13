@@ -20,6 +20,7 @@ export default withNuxt(antfu({
     semi: true,
     quotes: "double",
   },
+  ignores: ["**/migrations/*"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
